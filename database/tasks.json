@@ -1,0 +1,14 @@
+[
+  {
+    "id": "a7063570-d9b5-43ce-a7de-2396622cfb2a",
+    "title": "Hola mundo",
+    "description": "Primera tarea por hacer",
+    "completed": false
+  },
+  {
+    "id": "f977b1da-4703-4594-bf9a-f83e1663cff9",
+    "title": "Nueva tarea",
+    "description": "Descripción de la tarea",
+    "completed": false
+  }
+]
