@@ -1,6 +1,6 @@
 import { StatusCodes } from 'http-status-codes'
 
-import model from './model.js'
+import model from '../model/model.js'
 
 const create = async (req, res) => {
   try {

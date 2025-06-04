@@ -1,6 +1,6 @@
 import { Router } from 'express'
 
-import { tasksRouter } from './domains/tasks/index.js'
+import { tasksRouter } from './index.js'
 
 const router = Router()
 

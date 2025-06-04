@@ -2,9 +2,9 @@ import { join } from 'node:path'
 
 import { v4 as uuidv4 } from 'uuid';
 
-import config from '../../config.js';
-import readJson from '../../utils/readJson.js'
-import writeJson from '../../utils/writeJson.js';
+import config from '../config.js';
+import readJson from '../utils/readJson.js'
+import writeJson from '../utils/writeJson.js';
 
 const COLLECTION_PATH = join(config.database.path, 'tasks.json')
 

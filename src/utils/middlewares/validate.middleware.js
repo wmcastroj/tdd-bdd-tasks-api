@@ -3,7 +3,7 @@ import { ReasonPhrases, StatusCodes } from 'http-status-codes'
 import { Errors } from '@sinclair/typebox/errors'
 
 import { REQUEST_SEGMENTS } from '../index.js'
-import { isUuid } from '../../validations/formatters/index.js'
+import { isUuid } from '../validations/formatters/index.js'
 
 FormatRegistry.Set('uuid', isUuid)
 
